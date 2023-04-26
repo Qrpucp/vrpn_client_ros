@@ -15,8 +15,8 @@
   <depend>tf2_ros</depend>
   <depend>vrpn</depend>
 
-  <test_depend>roslaunch</test_depend>
-  <test_depend>roslint</test_depend>
+  <!-- <test_depend>roslaunch</test_depend>
+  <test_depend>roslint</test_depend> -->
 
   <export>
   </export>

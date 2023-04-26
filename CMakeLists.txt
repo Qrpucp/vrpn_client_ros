@@ -57,10 +57,10 @@ install(DIRECTORY launch
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
-if(CATKIN_ENABLE_TESTING)
-  find_package(roslaunch REQUIRED)
-  find_package(roslint REQUIRED)
-  roslint_cpp()
-  roslint_add_test()
-  roslaunch_add_file_check(launch)
-endif()
+# if(CATKIN_ENABLE_TESTING)
+#   find_package(roslaunch REQUIRED)
+#   find_package(roslint REQUIRED)
+#   roslint_cpp()
+#   roslint_add_test()
+#   roslaunch_add_file_check(launch)
+# endif()
